@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+}
+
+p {
+    background-color: #eeeff2;
+    width: 100px;
+    min-width: 100px;
+    height: 150px;
+    padding: 10px;
+    font: Tahoma;
+    font-size: 40px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    border-left-width: 10px;
+    margin: 10px;
+}
+
+.F {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 8px;
+}
+.A:hover, .B:hover, .C:hover, .D:hover, .E:hover,.F:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
